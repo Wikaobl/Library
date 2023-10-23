@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, arial;
+}
+
+.addBookTitle,
+.searchBookTitle {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.addBook {
+  display: flex;
+}
+
+.title,
+.author,
+.date,
+.searchTitle {
+  margin: 15px;
+}
+
+#title,
+#author,
+#date,
+#searchTitle {
+  margin: 10px;
+  background-color: #cff5cd;
+}
+
+#addBtn,
+#searchBtn {
+  border-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0 10px;
+  height: 50px;
+}
+
+#addBtn {
+  background-color: #56c16c;
+}
+
+#addBtn:hover {
+  background-color: #3aa24f;
+}
+
+#searchBtn {
+  background-color: #7671d0;
+}
+
+#searchBtn:hover {
+  background-color: #5753a1;
+}

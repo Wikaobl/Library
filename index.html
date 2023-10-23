@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1 class="addBookTitle">Dodaj książkę</h1>
+      <div class="addBook">
+        <label class="title">
+          Tytuł książki:<input type="text" id="title"
+        /></label>
+        <label class="author"
+          >Autor książki: <input type="text" id="author"
+        /></label>
+        <label class="date"
+          >Data wydania książki:<input type="number" id="date"
+        /></label>
+        <button id="addBtn">Dodaj książkę:</button>
+      </div>
+    </section>
+    <section>
+      <h1 class="searchBookTitle">Wyszukaj książkę</h1>
+      <label class="searchTitle">
+        Tytuł książki:<input type="text" id="searchTitle"
+      /></label>
+
+      <button id="searchBtn">Znajdź książkę</button>
+
+      <div id="searchResult"></div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
